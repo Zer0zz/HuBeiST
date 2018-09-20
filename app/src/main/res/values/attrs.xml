@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SelfImageTextAttr">
+        <attr name="text_label" />
+        <attr name="text_hint_label" />
+        <attr name="image_id" format="float" />
+        <attr name="edttext_inputtype" />
+        <attr name="label_width" />
+        <attr name="default_text" />
+        <attr name="text_readonly" />
+    </declare-styleable>
+</resources>

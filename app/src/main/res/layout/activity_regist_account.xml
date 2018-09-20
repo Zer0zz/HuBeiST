@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.RegistAccountActivity">
+
+    <FrameLayout
+        android:id="@+id/regist_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:background="@color/titleColor">
+
+        <TextView
+            style="@style/TitleTextStyle"
+            android:text="@string/regist_account" />
+
+        <ImageView
+            android:id="@+id/back_img"
+            style="@style/TitleBackImg" />
+    </FrameLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout style="@style/RegistLayoutStyle">
+
+                <TextView
+                    style="@style/RegistTextViewStyle"
+                    android:text="@string/name_" />
+
+                <EditText
+                    style="@style/RegistEditTextStyle"
+                    android:hint="@string/name" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/RegistLayoutStyle">
+
+                <TextView
+                    style="@style/RegistTextViewStyle"
+                    android:text="@string/ID_number_" />
+
+                <EditText
+                    android:inputType="number"
+                    style="@style/RegistEditTextStyle"
+                    android:hint="@string/ID_number" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/RegistLayoutStyle">
+
+                <TextView
+                    style="@style/RegistTextViewStyle"
+                    android:text="@string/nickname_" />
+
+                <EditText
+                    style="@style/RegistEditTextStyle"
+                    android:hint="@string/nickname" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/RegistLayoutStyle">
+
+                <TextView
+                    style="@style/RegistTextViewStyle"
+                    android:text="@string/phoneNo_" />
+
+                <EditText
+                    android:inputType="number"
+                    style="@style/RegistEditTextStyle"
+                    android:hint="@string/phoneNo" />
+            </LinearLayout>
+
+            <LinearLayout style="@style/RegistLayoutStyle">
+
+                <TextView
+                    style="@style/RegistTextViewStyle"
+                    android:text="@string/pwd_" />
+
+                <EditText
+                    android:inputType="textPassword"
+                    style="@style/RegistEditTextStyle"
+                    android:hint="@string/password" />
+            </LinearLayout>
+
+
+            <LinearLayout style="@style/RegistLayoutStyle">
+
+                <TextView
+                    style="@style/RegistTextViewStyle"
+                    android:text="@string/confirm_pwd_" />
+
+                <EditText
+                    android:inputType="textPassword"
+                    style="@style/RegistEditTextStyle"
+                    android:hint="@string/confirm_pwd" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/login_btn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginTop="32dp"
+                android:background="@drawable/bg_login_btn_shape"
+                android:gravity="center"
+                android:padding="8dp"
+                android:text="@string/regist"
+                android:textColor="@android:color/white"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

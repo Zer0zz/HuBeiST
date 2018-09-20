@@ -1,3 +1,45 @@
 <resources>
-    <string name="app_name">HuBeiST</string>
+    <string name="app_name">超级入口</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="self">我的</string>
+    <string name="home_page">首页</string>
+    <string name="list_shouquan">授权列表</string>
+    <string name="about">关于</string>
+    <string name="copyright">湖北省建设信息中心 版权所有</string>
+    <string name="title_activity_login">登录</string>
+    <string name="user_name">用户名</string>
+    <string name="password">密码</string>
+    <string name="regist_account">注册账号</string>
+    <string name="phone_number">手机号</string>
+    <string name="hint_put_phonenumber">请输入手机号</string>
+    <string name="hint_put_pwd">请输入密码</string>
+    <string name="forget_pwd">忘记密码？</string>
+    <string name="refind_pwd_methad">找回密码的方法:</string>
+    <string name="msg_goto_net">到湖北省建设信息网的</string>
+    <string name="query">查询</string>
+    <string name="regist">注册</string>
+
+    <string name="name_">姓名:</string>
+    <string name="name">姓名</string>
+    <string name="ID_number_">身份证号:</string>
+    <string name="ID_number">身份证号</string>
+    <string name="nickname_">昵称:</string>
+    <string name="nickname">昵称</string>
+    <string name="phoneNo_">手机号码:</string>
+    <string name="phoneNo">手机号码</string>
+    <string name="pwd_">密码:</string>
+    <string name="confirm_pwd_">确认密码:</string>
+    <string name="confirm_pwd">确认密码</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email completions." </string>
 </resources>

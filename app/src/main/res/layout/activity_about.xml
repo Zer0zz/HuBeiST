@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.AboutActivity">
+
+    <FrameLayout
+        android:id="@+id/about_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/title_height"
+        android:layout_alignParentTop="true"
+        android:background="@color/titleColor">
+
+        <TextView
+            style="@style/TitleTextStyle"
+            android:text="@string/about" />
+
+        <ImageView
+            android:id="@+id/back_img"
+           style="@style/TitleBackImg" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/version_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/about_title"
+        android:layout_marginTop="15dp"
+        android:drawableTop="@drawable/icon"
+        android:gravity="center"
+        android:text="超级入口 1.0.1" />
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:gravity="center"
+        android:text="@string/copyright" />
+</RelativeLayout>
